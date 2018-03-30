@@ -1,0 +1,8 @@
+#GET lista produtos
+
+curl -H "Accept: application/json" http://localhost:3000
+
+
+#POST cadastro de produto
+
+curl -H "Content-Type: application/json" -X POST -d '{"titulo":"novo livro","preco":150,"descricao":"descricao do livro"}' http://localhost:3000/produtos
