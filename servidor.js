@@ -1,6 +1,7 @@
 const servidor = require('express')(),
       express = require('express'),
-      expressValidator = require('express-validator');
+      expressValidator = require('express-validator'),
+      dotEnv = require('dotenv').config();
 
 servidor.set('view engine', 'ejs');
 
